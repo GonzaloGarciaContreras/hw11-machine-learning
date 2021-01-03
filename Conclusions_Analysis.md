@@ -59,15 +59,24 @@ ___
 * Random Forest Classifier: 0.36
     * high_risk: 1.0
     * low_risk:  0.36
-* Easy Ensemble Classifier: __0.99__
+* __Easy Ensemble Classifier: 0.99__
     * high_risk: 0.51
     * low_risk:  1.0
+
+* _Best Recall Total: Easy Ensemble Classifier -> 0.99_
+* _Best Recall high_risk: Random Forest -> 1.0_
+* _Best Recall low_risk: Easy Ensemble -> 1.0_
 >
 > Which model had the best geometric mean score?
->
+* Random Forest Classifier: 0.60
+* __Easy Ensemble Classifier: 0.72__
 
-
-> What are the top three features?
+> What are the top three features? (top most significant)
+* 'last_pymnt_amnt' -> 0.071
+* 'total_rec_prncp' -> 0.067
+* 'total_rec_int' -> 0.064
+* 'total_pymnt' -> 0.062
+* 'total_pymnt_inv' -> 0.061
 
 ---
 
